@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.tab .label .icon {
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  transform-origin: center center;
+}
