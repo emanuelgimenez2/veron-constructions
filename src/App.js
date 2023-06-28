@@ -1,10 +1,10 @@
-
-import './App.css';import React from 'react';import HomePage from './container/HomePage';import footer from './container/sociales';import IndexPage from './container/IndexPage';import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import logo from './logo.svg';
+import './App.css';import React from 'react';import HomePage from './container/HomePage';
 
 function App() {
   return (
     <div className="App">
-     <IndexPage />
+     <HomePage />
     </div>
   );
 }
