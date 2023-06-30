@@ -1,10 +1,23 @@
-import logo from './logo.svg';
-import './App.css';import React from 'react';import HomePage from './container/HomePage';
+
+import "./App.css";
+import React from "react";
+import IndexPage from "./container/IndexPage.js";
+// import Example from "./container/Example";
+// import IndexPage from "./container/IndexPage.js";
+
+
+
 
 function App() {
   return (
     <div className="App">
-     <HomePage />
+      <IndexPage />
+
+
+
+
+
+    
     </div>
   );
 }
