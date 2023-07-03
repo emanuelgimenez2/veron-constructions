@@ -24,7 +24,7 @@ export default function IndexPage() {
                                                         <rect x={4} y={14} width={6} height={6} rx={1} />
                                                         <rect x={14} y={14} width={6} height={6} rx={1} />
                                                     </svg>
-                                                    <span className="ml-2 font-bold">Dashboard</span>
+                                                    <span className="ml-2 font-bold">Principal</span>
                                                 </div>
                                             </li>
                                             <li className="flex xl:hidden flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex justify-center">
@@ -33,7 +33,7 @@ export default function IndexPage() {
                                                         <path stroke="none" d="M0 0h24v24H0z" />
                                                         <path d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1" />
                                                     </svg>
-                                                    <span className="ml-2 font-bold">Products</span>
+                                                    <span className="ml-2 font-bold">Productos</span>
                                                 </div>
                                             </li>
                                             <li className="flex xl:hidden cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
@@ -42,7 +42,7 @@ export default function IndexPage() {
                                                     <polyline points="8 16 10 10 16 8 14 14 8 16" />
                                                     <circle cx={12} cy={12} r={9} />
                                                 </svg>
-                                                <span className="ml-2 font-bold">Performance</span>
+                                                <span className="ml-2 font-bold">testimonios</span>
                                             </li>
                                             <li className="border-b border-gray-300 flex xl:hidden cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
                                                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-code" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -51,7 +51,7 @@ export default function IndexPage() {
                                                     <polyline points="17 8 21 12 17 16" />
                                                     <line x1={14} y1={4} x2={10} y2={20} />
                                                 </svg>
-                                                <span className="ml-2 font-bold">Deliverables</span>
+                                                <span className="ml-2 font-bold">contacto</span>
                                             </li>
                                             <li className="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-2 py-2 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
                                                 <div className="flex items-center">
@@ -252,7 +252,7 @@ export default function IndexPage() {
                                                             fill="#667EEA"
                                                         />
                                                     </svg>
-                                                    <p className="text-base md:text-2xl text-gray-800 ml-3">The North</p>
+                                                    <p className="text-base md:text-2xl text-gray-800 ml-3">Veron-constructions</p>
                                                 </div>
                                                 <div id="cross" className="text-gray-800" onClick={() => setShow(!show)}>
                                                     <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-x" width={24} height={24} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -276,7 +276,7 @@ export default function IndexPage() {
                                                                 <rect x={14} y={14} width={6} height={6} rx={1} />
                                                             </svg>
                                                         </div>
-                                                        <p className="text-indigo-700 xl:text-base text-base ml-3">Dashboard</p>
+                                                        <p className="text-indigo-700 xl:text-base text-base ml-3">Principal</p>
                                                     </div>
                                                 </li>
                                             </a>
@@ -290,7 +290,7 @@ export default function IndexPage() {
                                                                     <path d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1" />
                                                                 </svg>
                                                             </div>
-                                                            <p className="text-gray-800 xl:text-base md:text-2xl text-base ml-3">Products</p>
+                                                            <p className="text-gray-800 xl:text-base md:text-2xl text-base ml-3">Productos</p>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -305,7 +305,7 @@ export default function IndexPage() {
                                                                 <circle cx={12} cy={12} r={9} />
                                                             </svg>
                                                         </div>
-                                                        <p className="text-gray-800 xl:text-base md:text-2xl text-base ml-3">Performance</p>
+                                                        <p className="text-gray-800 xl:text-base md:text-2xl text-base ml-3">trabajos</p>
                                                     </div>
                                                 </li>
                                             </a>
@@ -320,7 +320,7 @@ export default function IndexPage() {
                                                                 <line x1={14} y1={4} x2={10} y2={20} />
                                                             </svg>
                                                         </div>
-                                                        <p className="text-gray-800 xl:text-base md:text-2xl text-base ml-3">Deliverables</p>
+                                                        <p className="text-gray-800 xl:text-base md:text-2xl text-base ml-3">testimonios</p>
                                                     </div>
                                                 </div>
                                             </li>
