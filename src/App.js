@@ -6,6 +6,10 @@ import IndexPage from "./container/IndexPage.js";
 // import IndexPage from "./container/IndexPage.js";
 import Offers from "./container/Offers";
 import Testimonials from "./container/Testimonials.js";
+import Team from "./container/Team";
+import Footer from "./container/footer";
+
+
 
 
 
@@ -16,6 +20,9 @@ function App() {
       <IndexPage /> 
       <Offers />
       <Testimonials />
+      <Team />
+      <Footer />
+
       
 
 

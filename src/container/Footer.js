@@ -1,53 +1,108 @@
-import React from "react";
 
-const Footer = () => {
+
+import React from "react";
+function Footer() {
   return (
-    <div>
-      <footer>
-        <div class="flex justify-center border-t-2">
-          <a
-            href="https://timkoech.co.ke"
-            class="text-gray-700 hover:text-gray-800 m-2  "
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="feather feather-globe"
-            >
-              <circle cx="12" cy="12" r="10"></circle>
-              <line x1="2" y1="12" x2="22" y2="12"></line>
-              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-            </svg>
-          </a>
-          <a
-            href="https://twitter.com/timosville"
-            class="text-gray-700 hover:text-gray-800 m-2  "
-          >
-            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-              <path
-                fill="currentColor"
-                d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z"
-              />
-            </svg>
-          </a>
-          <a
-            href="https://github.com/timosville"
-            class="text-gray-700 hover:text-gray-800 m-2"
-          >
-            <svg "width:24px;height:24px" viewBox="0 0 24 24">
-              <path
-                fill="currentColor"
-                d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"
-              />
-            </svg>
-          </a>
+    <div className="pt-12">
+      <footer id="footer" className="relative z-50 dark:bg-gray-900 pt-24">
+        <div className="border-t border-b border-gray-200 dark:border-gray-700 py-16">
+          <div className="mx-auto container px-4 xl:px-12 2xl:px-4">
+            <div className="flex justify-between flex-col lg:flex-row">
+              <div className="w-full lg:w-1/2 px-6">
+                <h4 className="font-bold mb-4 text-lg">Compañia</h4>
+                <ul>
+                  <li>
+                    <a
+                      href="www.google.com"
+                      className="text-xs lg:text-sm leading-none hover:font-medium hover:text-base dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                    >
+                      Nosotros
+                    </a>
+                  </li>
+                  <li className="mt-6">
+                    <a
+                      href="#www.google.com"
+                      className="text-xs lg:text-sm leading-none hover:font-medium hover:text-base hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                    >
+                      Nuestros servicios
+                    </a>
+                  </li>
+                  <li className="mt-6">
+                    <a
+                      href="www.google.com"
+                      className="text-xs lg:text-sm leading-none hover:font-medium hover:text-base dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                    >
+                      Politica de privacidad
+                    </a>
+                  </li>
+
+                  <li className="mt-6">
+                    <a
+                      href="www.google.com"
+                      className="text-xs lg:text-sm leading-none hover:font-medium hover:text-base dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                    >
+                      Documentation
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="w-full lg:w-1/2 px-6">
+                <h4 className="font-bold mb-4 text-lg">Servicios</h4>
+                <ul>
+                  <li>
+                    <a
+                      href="www.google.com"
+                      className="text-xs lg:text-sm leading-none      transform transition-transform duration-100 hover:scale-110 hover:font-medium hover:text-base       dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                    >
+                      Preguntas
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="w-full lg:w-1/2 flex flex-col items-center ">
+                <h4 className="font-bold mb-4 text-lg">Seguinos</h4>
+                <div className="flex">
+                  <a href="www.google.com">
+                    <div className="text-gray-800 dark:text-gray-50 cursor-pointer hover:text-brand dark:hover:text-brand flex">
+                      <svg
+                        className="footer-icon feather feather-githud transition-transform hover:scale-110"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                      </svg>
+                    </div>
+                  </a>
+                  <a href="www.google.com">
+                    <div className="pl-4 flex">
+                      <svg
+                        className="footer-icon feather feather-twitter text-gray-800 dark:text-gray-50 cursor-pointer transition-transform hover:scale-110"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
