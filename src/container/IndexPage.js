@@ -103,7 +103,7 @@ export default function IndexPage() {
                                             />
                                         </g>
                                     </svg>
-                                    <h2 className="hidden sm:block text-base text-gray-700 font-bold leading-normal pl-3">The North</h2>
+                                    <h2 className="hidden sm:block text-base text-gray-700 font-bold leading-normal pl-3">Veron Constructions</h2>
                                 </div>
                             </div>
                             <div className="flex">
